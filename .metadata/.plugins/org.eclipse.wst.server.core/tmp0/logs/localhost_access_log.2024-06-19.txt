@@ -69,3 +69,17 @@
 0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:07:48 +0200] "POST /11_InicioSesionJSP/Login HTTP/1.1" 200 749
 127.0.0.1 - - [19/Jun/2024:13:09:50 +0200] "GET / HTTP/1.1" 404 688
 0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:09:55 +0200] "POST /11_InicioSesionJSP/Login HTTP/1.1" 200 811
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:40:03 +0200] "GET /03_TablaMultiplicarServlet/TablaMultiplicarServlet HTTP/1.1" 200 1874
+127.0.0.1 - - [19/Jun/2024:13:40:23 +0200] "GET / HTTP/1.1" 404 688
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:40:23 +0200] "GET /05_tabla_numero/numero.html HTTP/1.1" 200 275
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:40:27 +0200] "POST /05_tabla_numero/TablaNumero HTTP/1.1" 200 544
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:41:20 +0200] "GET /11_InicioSesionJSP/Inicio.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:41:20 +0200] "GET /11_InicioSesionJSP/css/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [19/Jun/2024:13:42:53 +0200] "GET / HTTP/1.1" 404 688
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:42:54 +0200] "GET /12_TablaMul_JSP/index.jsp HTTP/1.1" 200 1254
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:42:54 +0200] "GET /12_TablaMul_JSP/css/styles.css HTTP/1.1" 404 726
+127.0.0.1 - - [19/Jun/2024:13:55:53 +0200] "GET / HTTP/1.1" 404 688
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:55:54 +0200] "GET /12_TablaMul_JSP/index.jsp HTTP/1.1" 200 1254
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:55:54 +0200] "GET /12_TablaMul_JSP/css/styles.css HTTP/1.1" 404 726
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:55:58 +0200] "POST /12_TablaMul_JSP/tabla HTTP/1.1" 200 686
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:13:55:58 +0200] "GET /12_TablaMul_JSP/css/styles.css HTTP/1.1" 404 726
