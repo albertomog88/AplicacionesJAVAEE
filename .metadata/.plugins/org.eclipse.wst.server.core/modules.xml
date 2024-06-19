@@ -4,6 +4,7 @@
   <module moduleId="org.eclipse.jst.jee.server:06_ColoreaPagina" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:07_InicioSesion" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:04_envioDatosServlet" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:09_saludos_jsp" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:01_ejemplo_app" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:05_tablaNumerica" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:03_TablaMultiplicarServlet" serverId="Tomcat v10.1 Server at localhost"/>
