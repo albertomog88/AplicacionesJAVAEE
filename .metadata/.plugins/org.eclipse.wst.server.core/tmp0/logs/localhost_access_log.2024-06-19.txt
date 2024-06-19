@@ -30,3 +30,13 @@
 0:0:0:0:0:0:0:1 - - [19/Jun/2024:10:15:58 +0200] "POST /07_InicioSesion/Login HTTP/1.1" 200 772
 0:0:0:0:0:0:0:1 - - [19/Jun/2024:10:15:58 +0200] "GET /07_InicioSesion/css/styles.css HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [19/Jun/2024:10:16:04 +0200] "POST /07_InicioSesion/Login HTTP/1.1" 200 804
+127.0.0.1 - - [19/Jun/2024:12:05:08 +0200] "GET / HTTP/1.1" 404 688
+127.0.0.1 - - [19/Jun/2024:12:05:23 +0200] "GET / HTTP/1.1" 404 688
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:12:05:24 +0200] "GET /08_Redireccionamiento2/Login HTTP/1.1" 500 1227
+127.0.0.1 - - [19/Jun/2024:12:05:46 +0200] "GET / HTTP/1.1" 404 688
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:12:05:47 +0200] "GET /07_InicioSesion/Inicio.html HTTP/1.1" 200 1598
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:12:05:47 +0200] "GET /07_InicioSesion/css/styles.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:12:05:56 +0200] "POST /07_InicioSesion/Login HTTP/1.1" 200 772
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:12:10:03 +0200] "GET /08_autenticacion_redireccionamiento/login.html HTTP/1.1" 200 1019
+0:0:0:0:0:0:0:1 - - [19/Jun/2024:12:10:03 +0200] "GET /08_autenticacion_redireccionamiento/styles.css HTTP/1.1" 200 1317
+127.0.0.1 - - [19/Jun/2024:12:10:03 +0200] "GET / HTTP/1.1" 404 688
