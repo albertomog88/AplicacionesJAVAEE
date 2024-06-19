@@ -1,0 +1,51 @@
+package principal;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+@WebServlet("/TablaMultiplicarServlet")
+public class TablaMultiplicarServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/html");
+		try(PrintWriter out = response.getWriter()){
+			out.println("<html>");
+	        out.println("<head>");
+	        out.println("<title>Tabla de Multiplicar</title>");
+	        
+	        out.println("</head>");
+	        out.println("<body>");
+	        out.println("<h1>Tabla de Multiplicar del 1 al 10</h1>");
+	        out.println("<table border='1'>");
+	        out.println("<thead>");//Cabecera
+	        out.println("<tr>");
+	        out.println("<th>*</th>");
+	        for (int i = 1; i <= 10; i++) {
+	            out.println("<th>" + i + "</th>");
+	        }
+	        out.println("</tr>");
+	        out.println("</thead>");
+	        out.println("<tbody>");
+	        for (int i = 1; i <= 10; i++) {//Contenido
+	            out.println("<tr>");
+	            out.println("<th>" + i + "</th>");
+	            for (int j = 1; j <= 10; j++) {
+	                out.println("<td>" + (i * j) + "</td>");
+	            }
+	            out.println("</tr>");
+	        }
+	        out.println("</tbody>");
+	        out.println("</table>");
+	        out.println("</body>");
+	        out.println("</html>");
+		}
+	}
+
+}
