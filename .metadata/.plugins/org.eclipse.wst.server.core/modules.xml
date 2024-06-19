@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
   <module moduleId="org.eclipse.jst.jee.server:02_saludos_servlet" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:07_autenticacion_usuarios" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:06_ColoreaPagina" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:07_InicioSesion" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:04_envioDatosServlet" serverId="Tomcat v10.1 Server at localhost"/>
@@ -9,4 +10,5 @@
   <module moduleId="org.eclipse.jst.jee.server:05_tablaNumerica" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:03_TablaMultiplicarServlet" serverId="Tomcat v10.1 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:08_Redireccionamiento2" serverId="Tomcat v10.1 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:10_tablaMul_jsp" serverId="Tomcat v10.1 Server at localhost"/>
 </modules>
